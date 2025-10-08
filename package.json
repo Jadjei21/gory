@@ -1,0 +1,29 @@
+{
+  "name": "node-express-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.9.4",
+    "@google-cloud/speech": "^7.0.1",
+    "@google-cloud/storage": "^7.16.0",
+    "@google-cloud/text-to-speech": "^6.0.1",
+    "@google/genai": "^0.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^4.94.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
