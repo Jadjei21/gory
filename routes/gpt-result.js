@@ -16,7 +16,7 @@ let collectedResults = {
   reportConcluded: null,
 };
 
-
+ 
 
 // Function to generate the business plan using collected data
 async function generateBusinessPlan(req) {
